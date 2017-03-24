@@ -8,3 +8,5 @@ RUN apt-get update && \
 RUN go get github.com/tsenart/vegeta
 
 RUN go install github.com/tsenart/vegeta
+
+CMD [ "/bin/vegeta", "-h" ]
