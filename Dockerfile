@@ -9,5 +9,5 @@ RUN go get github.com/tsenart/vegeta
 
 RUN go install github.com/tsenart/vegeta
 
-ENTRYPOINT [ "/bin/bash" ] 
-#CMD [ "/go/bin/vegeta", "-h" ]
+CMD [ "tail", "-F", "-n0", "/etc/hosts"  ]
+
