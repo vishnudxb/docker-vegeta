@@ -1,6 +1,9 @@
 docker-vegeta
 =============
 
+[![](https://images.microbadger.com/badges/image/vishnunair/docker-vegeta.svg)](https://microbadger.com/images/vishnunair/docker-vegeta)
+[![](https://images.microbadger.com/badges/version/vishnunair/docker-vegeta.svg)](https://microbadger.com/images/vishnunair/docker-vegeta)
+
 Vegeta is a versatile HTTP load testing tool built out of need to drill HTTP services with a constant request rate. It can be used both as a command line utility and a library.
 
 Here I am using it inside a docker container to run the HTTP LOAD TESTS
